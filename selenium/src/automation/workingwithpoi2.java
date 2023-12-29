@@ -24,6 +24,7 @@ public class workingwithpoi2 {
 		r.createCell(0).setCellValue("testing");
 		FileOutputStream fos= new FileOutputStream("C:\\\\Users\\\\kn025314\\\\Desktop\\\\Book1.xlsx");
 		wbo.write(fos);
+		
  
 	}
 
